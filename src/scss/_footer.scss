@@ -1,0 +1,20 @@
+// Footer
+footer {
+    display: block;
+    background-color: #0a0a0a;
+}
+
+.footer {
+    padding: 25px 0;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0a0a0a;
+
+        & span {
+            font-size: 18px;
+        }
+    }
+}
